@@ -157,4 +157,10 @@ p {
   .hero-headings {
     align-items: flex-start;
   }
+
+  .cta {
+    padding: 1.2em 2.1em 1.2em 2.1em;
+    border-radius: 0 5em 5em 5em;
+    font-size: 1.1rem;
+  }
 }
