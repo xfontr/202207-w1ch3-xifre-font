@@ -21,18 +21,6 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  font-size: clamp(2rem, -0.875rem + 8.333vw, 3.5rem);
-  font-weight: bold;
-  margin-bottom: 0.25em;
-}
-
-h2 {
-  font-size: clamp(1.5rem, -0.875rem + 6.333vw, 2.2rem);
-  font-weight: bold;
-  margin-bottom: 0.17em;
-}
-
 h3 {
   font-size: clamp(1.2rem, -0.875rem + 3.333vw, 1.75rem);
   margin-bottom: 0.07em;
@@ -40,4 +28,40 @@ h3 {
 
 p {
   font-size: 1rem;
+}
+
+.hero {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero h1 {
+  color: var(--contrast-color);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  font-size: clamp(2.5rem, -0.5rem + 5.333vw, 3.2rem);
+  margin-bottom: 4%;
+}
+
+.cta {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.9em 1.8em 0.9em 1.8em;
+  border: none 1px transparent;
+  border-radius: 0 5em 5em 5em;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.4px;
+  background-color: var(--contrast-color);
+  color: var(--clear-main-color);
 }
