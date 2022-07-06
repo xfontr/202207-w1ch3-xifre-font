@@ -46,7 +46,6 @@ p {
 }
 
 .hero h2 {
-  font-size: 2.5rem;
   font-size: clamp(2.5rem, -0.5rem + 5.333vw, 3.2rem);
   margin-bottom: 4%;
 }
@@ -64,4 +63,31 @@ p {
   letter-spacing: 0.4px;
   background-color: var(--contrast-color);
   color: var(--clear-main-color);
+}
+
+.card {
+  border-radius: 1.5rem;
+  width: 100%;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;
+  background-color: grey;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card h3 {
+  color: var(--clear-main-color);
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.card p {
+  color: var(--clear-main-color);
+  letter-spacing: 0.4px;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
