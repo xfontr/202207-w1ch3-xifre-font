@@ -147,6 +147,10 @@ p {
     min-height: 25rem;
   }
 
+  .card * {
+    display: none;
+  }
+
   .hero {
     margin-bottom: 2%;
     flex-direction: row;
