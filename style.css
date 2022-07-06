@@ -145,6 +145,26 @@ p {
   .card {
     flex: 1;
     min-height: 25rem;
+    transition: 0.5s;
+    cursor: pointer;
+    justify-content: center;
+  }
+
+  .card * {
+    display: none;
+  }
+
+  .card:hover * {
+    display: flex;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+    margin-bottom: 3%;
+  }
+
+  .card p {
+    font-size: 1.7rem;
   }
 
   .hero {
