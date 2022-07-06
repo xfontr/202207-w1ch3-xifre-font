@@ -30,8 +30,50 @@ p {
   font-size: 1rem;
 }
 
+header {
+  padding: 7px 0 7px 0;
+  position: fixed;
+  width: 100%;
+  background-color: var(--clear-main-color);
+  top: 0;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav img {
+  width: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav .cta {
+  padding: 0.9em 1.8em 0.9em 1.8em;
+  border-radius: 0 5em 5em 5em;
+  font-size: 0.85rem;
+  border: 2px solid var(--contrast-color);
+  color: var(--contrast-color);
+  background-color: transparent;
+}
+
+nav .cta:hover {
+  border: 2px solid transparent;
+  color: var(--clear-main-color);
+  background-color: var(--contrast-color);
+}
+
 .hero {
-  padding-top: 5%;
+  padding-top: 9%;
   display: flex;
   justify-content: center;
   align-items: center;
