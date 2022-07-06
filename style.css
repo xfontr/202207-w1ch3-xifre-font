@@ -39,6 +39,13 @@ p {
   margin-bottom: 10%;
 }
 
+.hero-headings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .hero h1 {
   color: var(--contrast-color);
   text-transform: uppercase;
@@ -143,5 +150,11 @@ p {
 
   .hero {
     margin-bottom: 5%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero-headings {
+    align-items: flex-start;
   }
 }
