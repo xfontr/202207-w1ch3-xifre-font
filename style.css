@@ -75,6 +75,9 @@ p {
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  min-height: 20rem;
 }
 
 .card h3 {
@@ -90,4 +93,19 @@ p {
   letter-spacing: 0.4px;
   font-size: 1.3rem;
   font-weight: bold;
+}
+
+.card:nth-child(1) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(/img/01.jpg);
+}
+
+.card:nth-child(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(/img/02.jpg);
+}
+
+.card:nth-child(3) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(/img/03.jpg);
 }
