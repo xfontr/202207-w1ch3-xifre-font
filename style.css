@@ -59,6 +59,17 @@ nav img {
   width: 40px;
 }
 
+.dropdown-menu {
+  padding: 15px;
+  display: none;
+  position: absolute;
+  background-color: var(--clear-main-color);
+}
+
+.dropdown-menu * {
+  margin-top: 5px;
+}
+
 .hero {
   padding-top: 25%;
   display: flex;
@@ -268,5 +279,9 @@ nav img {
 
   .burger-menu {
     display: none;
+  }
+
+  .demo-dropdown:hover .dropdown-menu {
+    display: block;
   }
 }
