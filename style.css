@@ -91,3 +91,7 @@ p {
   font-size: 1.3rem;
   font-weight: bold;
 }
+
+.card:nth-child(1) {
+  background-image: url(/img/01.jpg);
+}
