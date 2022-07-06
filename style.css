@@ -59,14 +59,16 @@ nav img {
   width: 40px;
 }
 
-.dropdown-menu {
+.dropdown-menu-demo,
+.dropdown-menu-blocks {
   padding: 15px;
   display: none;
   position: absolute;
   background-color: var(--clear-main-color);
 }
 
-.dropdown-menu * {
+.dropdown-menu-demo *,
+.dropdown-menu-blocks * {
   margin-top: 5px;
 }
 
@@ -281,7 +283,10 @@ nav img {
     display: none;
   }
 
-  .demo-dropdown:hover .dropdown-menu {
+  .demo-dropdown:hover .dropdown-menu-demo {
+    display: block;
+  }
+  .blocks-dropdown:hover .dropdown-menu-blocks {
     display: block;
   }
 }
