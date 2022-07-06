@@ -21,18 +21,6 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  font-size: clamp(2rem, -0.875rem + 8.333vw, 3.5rem);
-  font-weight: bold;
-  margin-bottom: 0.25em;
-}
-
-h2 {
-  font-size: clamp(1.5rem, -0.875rem + 6.333vw, 2.2rem);
-  font-weight: bold;
-  margin-bottom: 0.17em;
-}
-
 h3 {
   font-size: clamp(1.2rem, -0.875rem + 3.333vw, 1.75rem);
   margin-bottom: 0.07em;
@@ -42,6 +30,18 @@ p {
   font-size: 1rem;
 }
 
-section:first-child {
-  padding-top: 10em;
+.hero {
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+
+.hero h1 {
+  color: var(--contrast-color);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  font-size: clamp(2.5rem, -0.5rem + 5.333vw, 3.2rem);
 }
