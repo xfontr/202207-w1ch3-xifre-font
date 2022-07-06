@@ -49,3 +49,16 @@ p {
   font-size: 2.5rem;
   font-size: clamp(2.5rem, -0.5rem + 5.333vw, 3.2rem);
 }
+
+.cta {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.8em 1.7em 0.8em 1.7em;
+  border: none 1px transparent;
+  border-radius: 0 5em 5em 5em;
+  cursor: pointer;
+  font-weight: 500;
+  background-color: var(--contrast-color);
+  color: var(--clear-main-color);
+  transition: 0.4s;
+}
