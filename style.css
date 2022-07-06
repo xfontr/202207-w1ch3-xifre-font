@@ -138,5 +138,6 @@ p {
   }
   .card {
     flex: 1;
+    background-size: auto;
   }
 }
