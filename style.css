@@ -137,7 +137,8 @@ p {
     justify-content: center;
   }
   .card {
+    height: ;
     flex: 1;
-    background-size: auto;
+    min-height: 25rem;
   }
 }
