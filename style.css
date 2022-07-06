@@ -146,6 +146,8 @@ p {
     flex: 1;
     min-height: 25rem;
     transition: 0.5s;
+    cursor: pointer;
+    justify-content: center;
   }
 
   .card * {
@@ -153,7 +155,7 @@ p {
   }
 
   .card:hover * {
-    display: block;
+    display: flex;
   }
 
   .hero {
