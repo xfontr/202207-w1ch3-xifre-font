@@ -283,10 +283,12 @@ nav img {
     display: none;
   }
 
-  .demo-dropdown:hover .dropdown-menu-demo {
+  .demo-dropdown:hover .dropdown-menu-demo,
+  .demo-dropdown:focus .dropdown-menu-demo {
     display: block;
   }
-  .blocks-dropdown:hover .dropdown-menu-blocks {
+  .blocks-dropdown:hover .dropdown-menu-blocks,
+  .blocks-dropdown:focus .dropdown-menu-blocks {
     display: block;
   }
 }
