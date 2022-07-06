@@ -39,6 +39,10 @@ header {
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
 }
 
+nav ul {
+  display: none;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -49,48 +53,8 @@ nav img {
   width: 50px;
 }
 
-nav ul {
-  list-style-type: none;
-  display: flex;
-  gap: 2.5rem;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-nav li:hover {
-  color: var(--contrast-color);
-}
-
-nav li::after {
-  content: "";
-  transition: 0.4s;
-  display: block;
-  width: 0;
-}
-
-nav li:hover::after {
-  height: 2px;
-  width: 100%;
-  background-color: var(--contrast-color);
-}
-
-nav .cta {
-  padding: 0.9em 1.8em 0.9em 1.8em;
-  border-radius: 0 5em 5em 5em;
-  font-size: 0.85rem;
-  border: 2px solid var(--contrast-color);
-  color: var(--contrast-color);
-  background-color: transparent;
-}
-
-nav .cta:hover {
-  border: 2px solid transparent;
-  color: var(--clear-main-color);
-  background-color: var(--contrast-color);
-}
-
 .hero {
-  padding-top: 9%;
+  padding-top: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -228,6 +192,7 @@ nav .cta:hover {
   }
 
   .hero {
+    padding-top: 11%;
     margin-bottom: 2%;
     flex-direction: row;
     justify-content: space-between;
@@ -249,5 +214,45 @@ nav .cta:hover {
     border: 2px solid var(--contrast-color);
     color: var(--contrast-color);
     transition: 0.4s;
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  nav li:hover {
+    color: var(--contrast-color);
+  }
+
+  nav li::after {
+    content: "";
+    transition: 0.4s;
+    display: block;
+    width: 0;
+  }
+
+  nav li:hover::after {
+    height: 2px;
+    width: 100%;
+    background-color: var(--contrast-color);
+  }
+
+  nav .cta {
+    padding: 0.9em 1.8em 0.9em 1.8em;
+    border-radius: 0 5em 5em 5em;
+    font-size: 0.85rem;
+    border: 2px solid var(--contrast-color);
+    color: var(--contrast-color);
+    background-color: transparent;
+  }
+
+  nav .cta:hover {
+    border: 2px solid transparent;
+    color: var(--clear-main-color);
+    background-color: var(--contrast-color);
   }
 }
