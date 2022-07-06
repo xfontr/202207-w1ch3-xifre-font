@@ -158,6 +158,15 @@ p {
     display: flex;
   }
 
+  .card h3 {
+    font-size: 1rem;
+    margin-bottom: 3%;
+  }
+
+  .card p {
+    font-size: 1.7rem;
+  }
+
   .hero {
     margin-bottom: 2%;
     flex-direction: row;
