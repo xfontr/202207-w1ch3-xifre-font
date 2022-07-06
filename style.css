@@ -44,13 +44,19 @@ nav ul {
 }
 
 nav {
+  max-width: 360px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: auto;
 }
 
 nav img {
   width: 50px;
+}
+
+.burger-menu {
+  width: 40px;
 }
 
 .hero {
@@ -161,6 +167,10 @@ nav img {
     max-width: 1150px;
   }
 
+  nav {
+    max-width: 1150px;
+  }
+
   .card-section {
     width: 100%;
     flex-direction: row;
@@ -254,5 +264,9 @@ nav img {
     border: 2px solid transparent;
     color: var(--clear-main-color);
     background-color: var(--contrast-color);
+  }
+
+  .burger-menu {
+    display: none;
   }
 }
