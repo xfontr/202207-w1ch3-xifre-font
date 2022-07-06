@@ -33,6 +33,10 @@ p {
 .hero {
   padding-top: 7%;
   padding-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .hero h1 {
