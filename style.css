@@ -3,3 +3,14 @@
   padding: 0;
   margin: 0;
 }
+
+:root {
+  font-size: 16px;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  color: var(--typography-color);
+  --clear-main-color: rgb(242, 243, 248);
+  --dark-main-color: rgb(8, 35, 79);
+  --contrast-color: rgb(164, 127, 14);
+  --typography-color: rgb(2, 8, 17);
+}
