@@ -109,3 +109,9 @@ p {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
     url(/img/03.jpg);
 }
+
+.container {
+  max-width: 360px;
+  display: flex;
+  justify-content: center;
+}
