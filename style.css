@@ -122,5 +122,21 @@ p {
   justify-content: center;
 }
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 1150px) {
+@media only screen and (min-device-width: 360px) {
+  main {
+    width: 100%;
+  }
+
+  .container {
+    max-width: 1150px;
+  }
+
+  .card-section {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .card {
+    flex: 1;
+  }
 }
