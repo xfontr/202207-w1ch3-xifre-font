@@ -41,3 +41,7 @@ h3 {
 p {
   font-size: 1rem;
 }
+
+section:first-child {
+  padding-top: 10em;
+}
