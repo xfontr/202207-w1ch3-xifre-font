@@ -57,6 +57,23 @@ nav ul {
   cursor: pointer;
 }
 
+nav li:hover {
+  color: var(--contrast-color);
+}
+
+nav li::after {
+  content: "";
+  transition: 0.4s;
+  display: block;
+  width: 0;
+}
+
+nav li:hover::after {
+  height: 2px;
+  width: 100%;
+  background-color: var(--contrast-color);
+}
+
 nav .cta {
   padding: 0.9em 1.8em 0.9em 1.8em;
   border-radius: 0 5em 5em 5em;
