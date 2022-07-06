@@ -125,7 +125,6 @@ p {
 
 .container {
   max-width: 360px;
-  display: flex;
   margin: auto;
 }
 
