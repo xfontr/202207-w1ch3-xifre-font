@@ -65,3 +65,10 @@ p {
   background-color: var(--contrast-color);
   color: var(--clear-main-color);
 }
+
+.card {
+  border-radius: 1.5rem;
+  width: 100%;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;
+}
