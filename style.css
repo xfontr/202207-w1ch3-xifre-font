@@ -71,6 +71,10 @@ p {
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
   padding: 1.5rem;
   background-color: grey;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
 }
 
 .card h3 {
