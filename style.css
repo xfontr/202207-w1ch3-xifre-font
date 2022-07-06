@@ -31,12 +31,12 @@ p {
 }
 
 .hero {
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 10%;
 }
 
 .hero h1 {
@@ -47,7 +47,7 @@ p {
 
 .hero h2 {
   font-size: clamp(2.5rem, -0.5rem + 5.333vw, 3.2rem);
-  margin-bottom: 4%;
+  margin-bottom: 6%;
 }
 
 .cta {
@@ -63,6 +63,12 @@ p {
   letter-spacing: 0.4px;
   background-color: var(--contrast-color);
   color: var(--clear-main-color);
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .card {
